@@ -11,7 +11,7 @@ import (
 
 var (
 	aliases = map[string]internal.ActualLocation{
-		"hehe/haha": {Protocol: "git", Uri: "<actualurl>"}, // TODO CHANGEME
+		"<modalias>": {Protocol: "git", Uri: "<actualurl>"}, // TODO CHANGEME
 		// Example:
 		// "custom/modpath": {Protocol: "git", Uri: "ssh://git@github.com/username/yourmodule"},
 
@@ -21,7 +21,7 @@ var (
 
 const (
 	port             = 8000
-	vanityServerHost = "<vanityhost>" // TODO CHANGEME. Example: "vanityserver.com"
+	vanityServerHost = "<vanityhost>" // TODO CHANGEME. Example: "vanityserver.com" (without http/https)
 )
 
 // handler will read the request path, then try to see if it matches any aliases declared above

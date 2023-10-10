@@ -7,7 +7,7 @@ This repo is a companion for this blog post: https://chfer.com/archives/2023/202
 ## Setup
 
 1. Open main.go
-2. Change the value of `<vanityhost>` `<actualurl>` (both marked with `TODO`)
+2. Change the value of `<vanityhost>`, `<modalias>`, and `<actualurl>` (all marked with `TODO`)
 
 ## How to start
 
